@@ -1,0 +1,11 @@
+[Nemo Action]
+Active=true
+Name=Set as ID3 Front Cover
+Comment=Sets the ID3 front cover art for all MP3s in the current directory as the selected file.
+Exec=/bin/bash ~/.bin/coverart.sh %P %F
+Icon-Name=folder-music-symbolic
+Selection=S
+Extensions=jpg;jpeg;png;
+Dependencies=eyeD3
+Quote=double
+Conditions=exec /bin/bash ~/.bin/contains_files.sh %P mp3
