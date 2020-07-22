@@ -2,7 +2,7 @@
 Active=true
 Name=Lowercase File Names
 Comment=Renames all files in the current directory to their lowercase versions
-Exec=/bin/bash ~/.bin/lcasefiles.sh %P
+Exec=/bin/bash .bin/lcasefiles.sh %P
 Icon-Name=format-text-lowercase
 Selection=none
 Extensions=any;
