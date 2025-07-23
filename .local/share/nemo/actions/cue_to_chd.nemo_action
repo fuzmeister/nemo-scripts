@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Create CHD file
+Comment=Creates a CHD file from a CUE + BIN set using chdman.
+Exec=/bin/bash .bin/cue_to_chd.sh %F
+Icon-Name=archive-symbolic
+Selection=S
+Extensions=cue;
+Dependencies=chdman
+Quote=double
